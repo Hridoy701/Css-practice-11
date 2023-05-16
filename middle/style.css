@@ -1,0 +1,14 @@
+.boxe{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    transition: .5s;
+}
+.boxe:hover{
+    transform: scale(1.2);
+}
